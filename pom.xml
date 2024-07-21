@@ -16,6 +16,7 @@
         <module>04-spring-framework-aop-xml</module>
         <module>05-spring-framework-aop-anno-jdk</module>
         <module>06-spring-framework-aop-anno-cglib</module>
+        <module>07-spring-mvc-helloworld</module>
     </modules>
 
     <properties>
