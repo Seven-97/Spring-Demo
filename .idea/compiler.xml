@@ -8,12 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="01-spring-framework-helloworld-xml" />
         <module name="03-spring-framework-helloworld-anno" />
+        <module name="05-spring-framework-aop-anno-jdk" />
         <module name="02-spring-framework-helloworld-config" />
+        <module name="04-spring-framework-aop-xml" />
+        <module name="06-spring-framework-aop-anno-cglib" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="01-spring-framework-helloworld-config" target="17" />
       <module name="01-spring-framework-helloworld-xml (1)" target="1.8" />
+      <module name="05-spring-framework-aop-anno" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

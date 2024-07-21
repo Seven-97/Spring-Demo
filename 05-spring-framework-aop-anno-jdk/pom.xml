@@ -1,29 +1,23 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.seven</groupId>
+        <artifactId>spring-demo</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>com.seven</groupId>
-    <artifactId>spring-demo</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <artifactId>05-spring-framework-aop-anno-jdk</artifactId>
+    <packaging>jar</packaging>
 
-    <name>spring-demo</name>
+    <name>05-spring-framework-aop-anno-jdk</name>
     <url>http://maven.apache.org</url>
-    <modules>
-        <module>01-spring-framework-helloworld-xml</module>
-        <module>02-spring-framework-helloworld-config</module>
-        <module>03-spring-framework-helloworld-anno</module>
-        <module>04-spring-framework-aop-xml</module>
-        <module>05-spring-framework-aop-anno-jdk</module>
-        <module>06-spring-framework-aop-anno-cglib</module>
-    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <org.projectlombok.version>1.18.20</org.projectlombok.version>
-        <org.slf4j.version>1.7.30</org.slf4j.version>
-        <ch.qos.logback.version>1.2.4</ch.qos.logback.version>
+        <spring.version>5.3.37</spring.version>
+        <aspectjweaver.version>1.9.6</aspectjweaver.version>
     </properties>
 
     <dependencies>
@@ -31,6 +25,16 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${org.projectlombok.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>${aspectjweaver.version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>

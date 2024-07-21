@@ -11,6 +11,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/01-spring-framework-helloworld-config/pom.xml" />
+        <option value="$PROJECT_DIR$/05-spring-framework-aop-anno/pom.xml" />
       </set>
     </option>
   </component>
