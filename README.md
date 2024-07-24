@@ -21,3 +21,7 @@ Seven的菜鸟成长之路的SpringDemo，欢迎到访在线网站：www.seven97
 
 ## 07-spring-mvc-helloworld
 
+
+## 08-spring-mvc-helloworld-anno
+纯注解版的Springmvc
+
