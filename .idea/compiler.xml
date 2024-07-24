@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -10,6 +11,7 @@
         <module name="05-spring-framework-aop-anno-jdk" />
         <module name="07-spring-mvc-helloworld" />
         <module name="04-spring-framework-aop-xml" />
+        <module name="08-spring-mvc-helloworld-anno" />
         <module name="06-spring-framework-aop-anno-cglib" />
         <module name="01-spring-framework-helloworld-xml" />
         <module name="02-spring-framework-helloworld-config" />
