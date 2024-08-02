@@ -18,6 +18,7 @@
         <module>06-spring-framework-aop-anno-cglib</module>
         <module>07-spring-mvc-helloworld</module>
         <module>08-spring-mvc-helloworld-anno</module>
+        <module>09-spring-mybatis-xml</module>
     </modules>
 
     <properties>
