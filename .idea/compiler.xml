@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="03-spring-framework-helloworld-anno" />
         <module name="05-spring-framework-aop-anno-jdk" />
+        <module name="06-spring-framework-aop-annotaion" />
         <module name="07-spring-mvc-helloworld" />
         <module name="04-spring-framework-aop-xml" />
         <module name="08-spring-mvc-helloworld-anno" />
